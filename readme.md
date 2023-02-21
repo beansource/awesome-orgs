@@ -1,7 +1,7 @@
 <div align="center">
 
 ## Awesome Orgs
-Curating the best GitHub organizations  
+Curating awesome GitHub organizations  
 ![octocat](https://github.githubassets.com/images/icons/emoji/hearts_around.png)
 
 [![awesome badge](https://awesome.re/badge.svg)](https://awesome.re)
