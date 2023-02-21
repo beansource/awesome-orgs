@@ -9,5 +9,5 @@ Curating awesome GitHub organizations
 </div>
 
 ### Contents
-- [Charm](https://github.com/charmbracelet) - We build tools to make the command line glamorous.
-- [unjs](https://github.com/unjs) - Unified JavaScript Tools
+- [Charm [charmbracelet]](https://github.com/charmbracelet) - We build tools to make the command line glamorous.
+- [UnJS [unjs]](https://github.com/unjs) - Unified JavaScript Tools
