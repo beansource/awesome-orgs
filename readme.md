@@ -14,3 +14,4 @@ Curating awesome GitHub organizations
 - [UnJS [unjs]](https://github.com/unjs) - Unified JavaScript Tools
 - [TheAlgorithms [thealgorithms]](https://github.com/thealgorithms) - Open Source resource for learning Data Structures & Algorithms and their implementation inany programming language
 - [Hugging Face [huggingface]](https://github.com/huggingface) - The AI community building the future
+- [TanStack [tanstack]](https://github.com/TanStack) - Open source software for building better UI and UX
