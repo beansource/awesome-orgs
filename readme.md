@@ -8,7 +8,17 @@ Curating awesome GitHub organizations
 
 </div>
 
-### Contents
+## Contents
+- [Companies](#companies)
+- [Other](#other)
+
+### Companies
+- [Vercel [vercel]](https://github.com/vercel) - Develop. Preview. Ship. Creators of Next.js.
+- [Prisma [prisma]](https://github.com/prisma) - Prisma makes working with databases easy
+- [EdgeDB [edgedb]](https://github.com/edgedb) - A next-generation graph-relational database.
+
+
+### Other
 - [Charm [charmbracelet]](https://github.com/charmbracelet) - We build tools to make the command line glamorous.
 - [Poimandres [pmndrs]](https://github.com/pmndrs) - Open source developer collective
 - [UnJS [unjs]](https://github.com/unjs) - Unified JavaScript Tools
