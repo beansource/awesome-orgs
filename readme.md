@@ -25,4 +25,6 @@ Curating awesome GitHub organizations
 - [TheAlgorithms [thealgorithms]](https://github.com/thealgorithms) - Open Source resource for learning Data Structures & Algorithms and their implementation in any Programming Language
 - [Hugging Face [huggingface]](https://github.com/huggingface) - The AI community building the future
 - [TanStack [tanstack]](https://github.com/TanStack) - Open source software for building better UI and UX
+- [Deno [denoland]](https://github.com/denoland)
+- [Nrwl [nrwl]](https://github.com/nrwl) - We are a team of engineers building software and open source: Nx and Nx Cloud
 - [Z-Shell [z-shell]](https://github.com/z-shell) - Open-source society passionate about Zsh
