@@ -41,6 +41,7 @@ Curating awesome GitHub organizations
 - [Cypress.io [cypress-io]](https://github.com/cypress-io) - Fast, easy and reliable testing for anything that runs in a browser
 - [CodeSandbox [codesandbox]](https://github.com/codesandbox) - An online editor tailored for web applications
 - [choo [choojs]](https://github.com/choojs) - (very) small browser tools. Choo choo
+- [Fiber [gofiber]](https://github.com/gofiber) - 🚀 Fiber is an Express inspired web framework written in Go with 💖
 
 ### User Interface
 - [Storybook [storybookjs]](https://github.com/storybookjs) - Build bulletproof user interfaces
