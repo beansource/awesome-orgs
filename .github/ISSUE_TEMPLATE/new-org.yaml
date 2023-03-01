@@ -15,8 +15,8 @@ body:
     id: org-name
     attributes:
       label: Org name
-      description: What is the name of the org?
-      placeholder: ex. Charm
+      description: What is the display name of the org?
+      placeholder: i.e. Charm
     validations:
       required: true
   - type: input
@@ -24,7 +24,7 @@ body:
     attributes:
       label: Handle
       description: What is the GitHub username of the org?
-      placeholder: charmbracelet
+      placeholder: charmbracelet, as shown in the org URL
     validations:
       required: true
   - type: input
