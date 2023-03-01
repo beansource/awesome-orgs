@@ -10,6 +10,7 @@ Curating awesome GitHub organizations
 
 ## Contents
 - [Companies](#companies)
+- [Cloud](#cloud)
 - [Web](#web)
 - [User Interface](#user-interface)
 - [Other](#other)
@@ -21,6 +22,11 @@ Curating awesome GitHub organizations
 - [Microsoft [microsoft]](https://github.com/microsoft) - Open source projects and samples from Microsoft
 - [HashiCorp [hashicorp]](https://github.com/hashicorp) - Consistent workflows to provision, secure, connect, and run any infrastructure for any application.
 - [GitHub [github]](https://github.com/github) - How people build software.
+
+### Cloud
+- [Kong [kong]](https://github.com/Kong) - The Cloud Connectivity Company. Community Driven & Enterprise Adopted.
+- [Kubernetes [kubernetes]](https://github.com/kubernetes) - Kubernetes
+- [Docker [docker]](https://github.com/docker) - Docker helps developers bring their ideas to life by conquering the complexity of app development.
 
 ### Web
 - [Oven [oven-sh]](https://github.com/oven-sh) - The company behind Bun, the incredibly fast JavaScript runtime, bundler, transpiler and package manager.
