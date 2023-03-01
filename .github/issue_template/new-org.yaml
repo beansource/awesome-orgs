@@ -1,6 +1,6 @@
 name: Add new org
 description: Suggest a new awesome org 🎉
-title: "new(org): "
+title: "new org: "
 labels: ["new-org"]
 assignees:
   - eric-hc
