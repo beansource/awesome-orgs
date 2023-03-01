@@ -19,12 +19,12 @@ heated:
   # Unlock the thread
   unlock: true
 
-this-is-awesome:
+this is awesome:
   # Post a comment
   comment: >
     This is awesome! Thank you for sharing!
 
-this-is-not-awesome:
+this is not awesome:
   close: true
 
 # The `pizzazz` label is added to issues, pull requests or discussions
