@@ -35,26 +35,26 @@ body:
       placeholder: We build tools to make the command line glamorous.
     validations:
       required: true
- - type: dropdown
-   id: org-cat
-   attributes:
-     label: Org Category
-     description: What kind of org is this?
-     options: 
-       - Companies
-       - Cloud
-       - Web
-       - Database
-       - User Interface
-       - Other
-   validations:
+  - type: dropdown
+    id: org-cat
+    attributes:
+      label: Org Category
+      description: What kind of org is this?
+      options: 
+        - Companies
+        - Cloud
+        - Web
+        - Database
+        - User Interface
+        - Other
+    validations:
       required: true
- - type: checkboxes
-   id: super-scary-contract
-   attributes:
-     label: Code of Conduct
-     description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/beansource/awesome-orgs/blob/main/code-of-conduct.md)
-     options:
-       - label: "I agree to follow `awesome-orgs`'s Code of Conduct"
-         required: true
+  - type: checkboxes
+    id: super-scary-contract
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/beansource/awesome-orgs/blob/main/code-of-conduct.md)
+      options:
+        - label: "I agree to follow `awesome-orgs`'s Code of Conduct"
+          required: true
    
