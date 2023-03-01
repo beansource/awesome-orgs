@@ -15,7 +15,7 @@ heated:
     label: 'on hold'
 
 # The `heated` label is removed from issues, pull requests or discussions
-'-heated':
+-heated:
   # Unlock the thread
   unlock: true
 
