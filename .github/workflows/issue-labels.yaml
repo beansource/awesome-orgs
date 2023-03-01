@@ -2,7 +2,7 @@ name: Labeler
 
 on:
   issues:
-    types: [labeled]
+    types: [labeled, unlabeled]
 
 permissions:
   contents: read
