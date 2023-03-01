@@ -12,13 +12,13 @@ Curating awesome GitHub organizations
 - [Companies](#companies)
 - [Cloud](#cloud)
 - [Web](#web)
+- [Database](#database)
 - [User Interface](#user-interface)
 - [Other](#other)
 
 ### Companies
 - [Vercel [vercel]](https://github.com/vercel) - Develop. Preview. Ship. Creators of Next.js.
 - [Prisma [prisma]](https://github.com/prisma) - Prisma makes working with databases easy
-- [EdgeDB [edgedb]](https://github.com/edgedb) - A next-generation graph-relational database.
 - [Microsoft [microsoft]](https://github.com/microsoft) - Open source projects and samples from Microsoft
 - [HashiCorp [hashicorp]](https://github.com/hashicorp) - Consistent workflows to provision, secure, connect, and run any infrastructure for any application.
 - [GitHub [github]](https://github.com/github) - How people build software.
@@ -41,6 +41,12 @@ Curating awesome GitHub organizations
 - [Cypress.io [cypress-io]](https://github.com/cypress-io) - Fast, easy and reliable testing for anything that runs in a browser
 - [CodeSandbox [codesandbox]](https://github.com/codesandbox) - An online editor tailored for web applications
 - [choo [choojs]](https://github.com/choojs) - (very) small browser tools. Choo choo
+- [Fiber [gofiber]](https://github.com/gofiber) - 🚀 Fiber is an Express inspired web framework written in Go with 💖
+
+### Database
+- [EdgeDB [edgedb]](https://github.com/edgedb) - A next-generation graph-relational database.
+- [Supabase [supabase]](https://github.com/supabase) - The open source Firebase alternative.
+- [SurrealDB [surrealdb]](https://github.com/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web
 
 ### User Interface
 - [Storybook [storybookjs]](https://github.com/storybookjs) - Build bulletproof user interfaces
