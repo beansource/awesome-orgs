@@ -4,7 +4,8 @@
 Curating awesome GitHub organizations  
 ![octocat](https://github.githubassets.com/images/icons/emoji/hearts_around.png)
 
-[![awesome badge](https://awesome.re/badge.svg)](https://awesome.re)
+[![awesome badge](https://img.shields.io/badge/-awesome-black?logo=awesome-lists)](https://awesome.re)
+[![submit badge](https://img.shields.io/badge/-submit%20an%20org-black?logo=stackblitz)](https://github.com/beansource/awesome-orgs/issues/new?assignees=eric-hc%2Cswand0g&labels=new+org&template=new-org.yaml&title=new+org%3A+)
 
 </div>
 
