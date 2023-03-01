@@ -1,4 +1,4 @@
-name: Add new org
+name: Add a new organization to the list
 description: Suggest a new awesome org 🎉
 title: "new org: "
 labels: ["new org"]
