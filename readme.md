@@ -6,6 +6,10 @@ Curating awesome GitHub organizations
 
 [![awesome badge](https://awesome.re/badge.svg)](https://awesome.re)
 
+<sub>
+<a href="https://github.com/beansource/awesome-orgs/issues/new?assignees=eric-hc%2Cswand0g&labels=new+org&template=new-org.yaml&title=new+org%3A+">Submit a new org 📮</a>
+</sub>
+
 </div>
 
 ## Contents
