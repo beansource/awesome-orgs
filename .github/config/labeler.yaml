@@ -1,0 +1,35 @@
+# Configuration for Label Actions - https://github.com/dessant/label-actions
+
+# The `heated` label is added to issues, pull requests or discussions
+heated:
+  # Post a comment
+  comment: >
+    The thread has been temporarily locked.
+    Please follow our community guidelines.
+  # Lock the thread
+  lock: true
+  # Set a lock reason
+  lock-reason: 'too heated'
+  # Additionally, add a label to pull requests
+  prs:
+    label: 'on hold'
+
+# The `heated` label is removed from issues, pull requests or discussions
+heated:
+  # Unlock the thread
+  unlock: true
+
+this-is-awesome:
+  # Post a comment
+  comment: >
+    This is awesome! Thank you for sharing!
+
+this-is-not-awesome:
+  close: true
+
+# The `pizzazz` label is added to issues, pull requests or discussions
+pizzazz:
+  # Post comments
+  comment:
+    - '![](https://i.imgur.com/WuduJNk.jpg)'
+    - '![](https://i.imgur.com/1D8yxOo.gif)'

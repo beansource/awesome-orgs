@@ -1,0 +1,19 @@
+name: Labeler
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  labeler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dessant/label-actions@v3
+        with:
+          github-token: ${{ github.token }}
+          config-path: '.github/config/labeler.yaml'
+          process-only: 'issues'
