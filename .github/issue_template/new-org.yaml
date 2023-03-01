@@ -1,0 +1,60 @@
+name: Add new org
+description: Suggest a new awesome org 🎉
+title: "new org: "
+labels: ["new org"]
+assignees:
+  - eric-hc
+  - swand0g
+  
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to awesome orgs! ⚡️
+  - type: input
+    id: org-name
+    attributes:
+      label: Org name
+      description: What is the name of the org?
+      placeholder: ex. Charm
+    validations:
+      required: true
+  - type: input
+    id: org-handle
+    attributes:
+      label: Handle
+      description: What is the GitHub username of the org?
+      placeholder: charmbracelet
+    validations:
+      required: true
+  - type: input
+    id: org-desc
+    attributes:
+      label: Description
+      description: "What is the org's description?"
+      placeholder: We build tools to make the command line glamorous.
+    validations:
+      required: true
+  - type: dropdown
+    id: org-cat
+    attributes:
+      label: Org Category
+      description: What kind of org is this?
+      options: 
+        - Companies
+        - Cloud
+        - Web
+        - Database
+        - User Interface
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: super-scary-contract
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/beansource/awesome-orgs/blob/main/code-of-conduct.md)
+      options:
+        - label: "I agree to follow `awesome-orgs`'s Code of Conduct"
+          required: true
+   
