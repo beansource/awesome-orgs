@@ -47,8 +47,16 @@ body:
         - Database
         - User Interface
         - Other
+        - _New category_
     validations:
       required: true
+  - type: input
+    id: new-category
+    attributes:
+      label: New category
+      description: If applicable, what new category would you like to create?
+    validations:
+      required: false
   - type: checkboxes
     id: super-scary-contract
     attributes:
