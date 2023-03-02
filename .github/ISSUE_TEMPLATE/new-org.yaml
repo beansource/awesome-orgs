@@ -38,7 +38,7 @@ body:
   - type: dropdown
     id: org-cat
     attributes:
-      label: Org Category
+      label: Org category
       description: What kind of org is this?
       options: 
         - Companies
@@ -74,7 +74,7 @@ body:
   - type: checkboxes
     id: super-scary-contract
     attributes:
-      label: Code of Conduct
+      label: Code of conduct
       description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/beansource/awesome-orgs/blob/main/code-of-conduct.md)
       options:
         - label: "I agree to follow `awesome-orgs`'s Code of Conduct"
