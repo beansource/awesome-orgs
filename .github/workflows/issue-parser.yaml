@@ -18,6 +18,9 @@ jobs:
         run:
           echo "body=$(gh issue view ${{ inputs.issue_number }} --repo ${{ github.repo }} --json body --jq '.body')" >> $GITHUB_OUTPUT
 
+      - name: Run issue output
+        run: gh issue view ${{ inputs.issue_number }} --repo ${{ github.repo }} --json body --jq '.body'
+
       - name: Issue Forms Body Parser
         id: parse
         uses: zentered/issue-forms-body-parser@v2.1.1
