@@ -57,6 +57,20 @@ body:
       description: If applicable, what new category would you like to create?
     validations:
       required: false
+  - type: textarea
+    attributes:
+      label: What makes this org awesome?
+      description: |
+        Please provide a brief justification for why you are suggesting this org ✍️
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Criteria
+      description: By suggesting this org, you feel that it meets the [criteria](https://github.com/beansource/awesome-orgs/blob/main/contributing.md#criteria) outlined by the maintainers of `awesome-orgs`.
+      options:
+        - label: I attest!
+          required: true
   - type: checkboxes
     id: super-scary-contract
     attributes:
