@@ -10,5 +10,6 @@ jobs:
       - uses: actions/stale@v7
         with:
           stale-issue-message: 'This issue is stale because it has been open 30 days with no activity 🤨 Remove stale label or comment or this will be closed in 5 days 👀'
+          close-issue-reason: not_planned
           days-before-stale: 30
           days-before-close: 5
