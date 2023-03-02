@@ -21,7 +21,7 @@ jobs:
 
       - name: Issue Forms Body Parser
         id: parse
-        uses: zentered/issue-forms-body-parser@v2.0.0
+        uses: zentered/issue-forms-body-parser@v2.1.1
         with:
           body: ${{ steps.read_issue_body.output.body }}
 
