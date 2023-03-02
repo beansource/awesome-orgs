@@ -17,6 +17,6 @@ jobs:
         id: parse
         uses: zentered/issue-forms-body-parser@v2.0.0
         with:
-          body: ${{ steps.read-issue.output.body }}
+          body: ${{ steps.read-issue.outputs.body }}
       - run: echo ${{ toJSON(steps.read-issue.outputs.body) }}
       - run: echo ${{ steps.read-issue.outputs.body }}
