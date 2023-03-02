@@ -1,4 +1,4 @@
-name: Issue Forms Body Parser
+name: Issue Parser 🤓
 
 on:
   workflow_dispatch:
