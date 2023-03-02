@@ -1,10 +1,26 @@
 # Welcome to awesome-orgs contributing guide <!-- omit in toc -->
 
-Thank you for investing your time in contributing to our project! :sparkles:. 
+Thank you for investing your time in contributing to our project! :sparkles: 
 
 Read our [Code of Conduct](./code-of-conduct.md) to keep our community approachable and respectable.
 
 In this guide you will get an overview of the contribution workflow from opening an issue, creating a PR, reviewing, and merging the PR.
+
+## Criteria
+
+Before jumping into the contribution workflow, please review the following criteria we expect for an awesome org:
+
+### Must have
+- More than one actively maintained project
+- Variety of useful or awesome repositories
+
+### Nice to have
+- Branding, website, social media
+- Organization `README`
+- Strong community
+- Sponsoring other organizations or users on GitHub
+- Being sponsored on GitHub
+- Currently active
 
 ## New contributor guide
 
