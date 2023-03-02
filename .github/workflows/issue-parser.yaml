@@ -25,3 +25,4 @@ jobs:
           body: ${{ steps.read_issue_body.output.body }}
 
       - run: echo ${{ toJSON(steps.parse.outputs.data) }}
+      - run: echo ${{ steps.parse.outputs.data }}
