@@ -7,8 +7,12 @@ jobs:
   process:
     runs-on: ubuntu-latest
     steps:
+      - name: Fetch the issue
+        id: read-issue
+        run:
+          echo "body=$(gh issue view 19 --repo ${{ github.repo }} --json body --jq '.body')" >> $GITHUB_OUTPUT
       - name: Issue Forms Body Parser
         id: parse
         uses: zentered/issue-forms-body-parser@v2.0.0
-      - run: echo ${{ toJSON(steps.parse.outputs.data) }}
-      - run: echo ${{ steps.parse.outputs.data }}
+      - run: echo ${{ toJSON(steps.read-issue.outputs.body) }}
+      - run: echo ${{ steps.read-issue.outputs.body }}
