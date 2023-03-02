@@ -15,6 +15,7 @@ Curating awesome GitHub organizations
 - [Web](#web)
 - [Database](#database)
 - [User Interface](#user-interface)
+- [Analytics](#analytics)
 - [Other](#other)
 
 ### Companies
@@ -52,6 +53,9 @@ Curating awesome GitHub organizations
 ### User Interface
 - [Storybook [storybookjs]](https://github.com/storybookjs) - Build bulletproof user interfaces
 - [Tailwind Labs [tailwindlabs]](https://github.com/tailwindlabs) - Creators of Tailwind CSS and Headless UI, and authors of Refactoring UI.
+
+### Analytics
+- [PostHog [posthog]](https://github.com/PostHog) - Open-source product analytics platform
 
 ### Other
 - [Charm [charmbracelet]](https://github.com/charmbracelet) - We build tools to make the command line glamorous.
