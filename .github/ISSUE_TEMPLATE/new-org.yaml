@@ -47,7 +47,7 @@ body:
         - Database
         - User Interface
         - Other
-        - _New category_
+        - New category
     validations:
       required: true
   - type: input
