@@ -6,17 +6,15 @@ on:
       issue_number:
         type: string
         required: true
-env:
-  GH_TOKEN: ${{ github.token }}
 
 jobs:
-  process:
+  parser:
     runs-on: ubuntu-latest
     steps:
-      - name: Fetch the issue
-        id: read_issue_body
-        run:
-          echo "body=$(gh issue view ${{ inputs.issue_number }} --repo ${{ github.repo }} --json body --jq '.body')" >> $GITHUB_OUTPUT
+      # - name: Fetch the issue
+      #   id: read_issue_body
+      #   run:
+      #     echo "body=$(gh issue view ${{ inputs.issue_number }} --repo ${{ github.repo }} --json body --jq '.body')" >> $GITHUB_OUTPUT
 
       - name: Issue Forms Body Parser
         id: parse
@@ -55,5 +53,14 @@ jobs:
 
             - [X] I agree to follow `awesome-orgs`'s Code of Conduct
 
-      - run: echo ${{ toJSON(steps.parse.outputs.data) }}
-      - run: echo ${{ steps.parse.outputs.data }}
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - uses: actions/github-script@v6
+        id: js
+        with: 
+          github-token: nothing
+          script: |
+            const script = require('./scripts/super-insane-cool-parser.js')
+            script({ github, context, core, mkdownData: ${{ steps.parse.outputs.data }} })
+      
