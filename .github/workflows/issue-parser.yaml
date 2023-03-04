@@ -41,6 +41,8 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           commit-message: "add ${{ steps.parse.outputs.handle }}"
-          title: "add(ord): ${{ steps.parse.outputs.handle }}"
+          title: "add(org): ${{ fromJSON(steps.parse.outputs.data).handle }}"
           body: Adds ${{ steps.parse.outputs.handle }} to the ${{ steps.parse.outputs.category }} category ⚡️
+          reviewers: swand0g
+          branch: "add/${{ fromJSON(steps.parse.outputs.data).handle }}"
       
