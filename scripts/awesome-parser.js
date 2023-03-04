@@ -20,7 +20,7 @@ function main({ mkdownData }) {
     orgDescription        = mkdownData['description']['text'],
     orgCategory           = mkdownData['org-category']['text'],
     orgCategoryLower      = mkdownData['org-category']['text'].toLowerCase(),
-    formattedOrgCategory  = `#${orgCategoryLower}`,
+    formattedOrgCategory  = `<!-- @${orgCategoryLower} -->`,
     orgUrl                = `https://github.com/${orgId}`,
     data                  = `- [${orgName} [${orgId}]](${orgUrl}) - ${orgDescription}`
   ;
