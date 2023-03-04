@@ -36,6 +36,8 @@ function main({ mkdownData }) {
     "New readme: \n",
     newReadme.split('\n').map(line => `\t${line}`).join('\n')
   );
+
+  return { orgId, orgName, orgDescription, orgCategory, newOrgUrl };
 }
 
 module.exports = main;

@@ -37,12 +37,15 @@ jobs:
             const script = require('./scripts/awesome-parser.js')
             script({ github, context, core, mkdownData: ${{ steps.parse.outputs.data }} })
       
+      - name: Output JS result
+        run: echo ${{ steps.js.outputs.result }}
+      
       - name: Create PR
         uses: peter-evans/create-pull-request@v3
         with:
-          commit-message: "add ${{ steps.parse.outputs.handle }}"
-          title: "add(org): ${{ fromJSON(steps.parse.outputs.data).handle }}"
-          body: Adds ${{ steps.parse.outputs.handle }} to the ${{ steps.parse.outputs.category }} category ⚡️
+          commit-message: "add ${{ steps.js.outputs.result.orgId }}"
+          title: "add(org): ${{ steps.js.outputs.result.orgId }}"
+          body: Adds ${{ steps.js.outputs.result.orgId }} to the ${{ steps.js.outputs.result.orgCategory }} category ⚡️
           reviewers: swand0g
-          branch: "add/${{ fromJSON(steps.parse.outputs.data).handle }}"
+          branch: "add/${{ steps.js.outputs.result.orgId }}"
       
