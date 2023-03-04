@@ -47,7 +47,8 @@ jobs:
         with:
           commit-message: "add ${{ env.org-id }}"
           title: "add(org): ${{ env.org-id }}"
-          body: Adds ${{ env.org-name }} to the ${{ env.org-category }} category ⚡️
+          body: Adds _${{ env.org-name }}_ to the ${{ env.org-category }} category ⚡️
           reviewers: swand0g
           branch: "add/${{ env.org-id }}"
+          labels: new org 🚀
       
