@@ -43,5 +43,4 @@ jobs:
           commit-message: "add ${{ steps.parse.outputs.handle }}"
           title: "add(ord): ${{ steps.parse.outputs.handle }}"
           body: Adds ${{ steps.parse.outputs.handle }} to the ${{ steps.parse.outputs.category }} category ⚡️
-          # token: ${{ secrets.PAT }}
       
