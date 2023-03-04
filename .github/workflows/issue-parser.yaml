@@ -29,7 +29,7 @@ jobs:
       - uses: actions/github-script@v6
         id: js
         with: 
-          github-token: ${{ GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const script = require('./scripts/awesome-parser.js')
             return script({ github, context, core, mkdownData: ${{ steps.parse.outputs.data }} })
