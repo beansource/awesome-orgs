@@ -51,4 +51,7 @@ jobs:
           reviewers: swand0g
           branch: "add/${{ env.org-id }}"
           labels: new org 🚀
+          delete-branch: true
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          committer: GitHub <noreply@github.com>
       
