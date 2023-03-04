@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Echo
-        run: ${{ github.event }}
+        run: echo "${{ github.event }}"
       
       - name: Parse issue body
         id: parse
