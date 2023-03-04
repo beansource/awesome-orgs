@@ -19,9 +19,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-
-      - name: Echo
-        run: echo "${{ github.event }}"
       
       - name: Parse issue body
         id: parse
@@ -35,17 +32,17 @@ jobs:
           github-token: nothing
           script: |
             const script = require('./scripts/awesome-parser.js')
-            script({ github, context, core, mkdownData: ${{ steps.parse.outputs.data }} })
+            return script({ github, context, core, mkdownData: ${{ steps.parse.outputs.data }} })
       
-      - name: Output JS result
-        run: echo ${{ steps.js.outputs.result }}
+      - name: JS -> Env
+        run: echo "js=${{ fromJSON(steps.js.outputs.result) }}" >> $GITHUB_ENV
       
       - name: Create PR
         uses: peter-evans/create-pull-request@v3
         with:
-          commit-message: "add ${{ steps.js.outputs.result.orgId }}"
-          title: "add(org): ${{ steps.js.outputs.result.orgId }}"
-          body: Adds ${{ steps.js.outputs.result.orgId }} to the ${{ steps.js.outputs.result.orgCategory }} category ⚡️
+          commit-message: "add ${{ env.js.orgId }}"
+          title: "add(org): ${{ env.js.orgId }}"
+          body: Adds ${{ env.js.orgId }} to the ${{ env.js.orgCategory }} category ⚡️
           reviewers: swand0g
-          branch: "add/${{ steps.js.outputs.result.orgId }}"
+          branch: "add/${{ env.js.orgId }}"
       
