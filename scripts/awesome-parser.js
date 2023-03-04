@@ -20,8 +20,8 @@ function main({ mkdownData }) {
     orgDescription        = mkdownData['description']['text'],
     orgCategory           = mkdownData['org-category']['text'].toLowerCase(),
     formattedOrgCategory  = `#${orgCategory}`,
-    newOrgUrl             = `https://github.com/${orgId}`,
-    data                  = `- [${orgName} [${orgId}]](${newOrgUrl}) - ${orgDescription}`
+    orgUrl                = `https://github.com/${orgId}`,
+    data                  = `- [${orgName} [${orgId}]](${orgUrl}) - ${orgDescription}`
   ;
 
   const 
@@ -37,7 +37,7 @@ function main({ mkdownData }) {
     newReadme.split('\n').map(line => `\t${line}`).join('\n')
   );
 
-  return { orgId, orgName, orgDescription, orgCategory, newOrgUrl };
+  return { orgId, orgName, orgDescription, orgCategory, orgUrl };
 }
 
 module.exports = main;

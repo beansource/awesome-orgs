@@ -1,4 +1,4 @@
-name: Issue Parser 🤓
+name: Issue Builder 🤖
 
 on:
   workflow_dispatch:
@@ -29,20 +29,25 @@ jobs:
       - uses: actions/github-script@v6
         id: js
         with: 
-          github-token: nothing
+          github-token: ${{ GITHUB_TOKEN }}
           script: |
             const script = require('./scripts/awesome-parser.js')
             return script({ github, context, core, mkdownData: ${{ steps.parse.outputs.data }} })
       
       - name: JS -> Env
-        run: echo "js=${{ fromJSON(steps.js.outputs.result) }}" >> $GITHUB_ENV
+        run: |
+          echo "org-id=${{ fromJSON(steps.js.outputs.result).orgId }}"                   >> $GITHUB_ENV
+          echo "org-name=${{ fromJSON(steps.js.outputs.result).orgName }}"               >> $GITHUB_ENV
+          echo "org-description=${{ fromJSON(steps.js.outputs.result).orgDescription }}" >> $GITHUB_ENV
+          echo "org-category=${{ fromJSON(steps.js.outputs.result).orgCategory }}"       >> $GITHUB_ENV
+          echo "org-url=${{ fromJSON(steps.js.outputs.result).orgUrl }}"                 >> $GITHUB_ENV
       
       - name: Create PR
         uses: peter-evans/create-pull-request@v3
         with:
-          commit-message: "add ${{ env.js.orgId }}"
-          title: "add(org): ${{ env.js.orgId }}"
-          body: Adds ${{ env.js.orgId }} to the ${{ env.js.orgCategory }} category ⚡️
+          commit-message: "add ${{ env.org-id }}"
+          title: "add(org): ${{ env.org-id }}"
+          body: Adds ${{ env.org-name }} to the ${{ env.org-category }} category ⚡️
           reviewers: swand0g
-          branch: "add/${{ env.js.orgId }}"
+          branch: "add/${{ env.org-id }}"
       
