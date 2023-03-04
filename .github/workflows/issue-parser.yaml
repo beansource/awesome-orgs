@@ -34,7 +34,7 @@ jobs:
         with: 
           github-token: nothing
           script: |
-            const script = require('./scripts/super-insane-cool-parser.js')
+            const script = require('./scripts/awesome-parser.js')
             script({ github, context, core, mkdownData: ${{ steps.parse.outputs.data }} })
       
       - name: Create PR
