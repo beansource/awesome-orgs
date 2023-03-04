@@ -27,7 +27,7 @@ jobs:
         id: parse
         uses: zentered/issue-forms-body-parser@v2.1.1
         with:
-          body: ${{ github.event.issue.number || inputs.issue-number }}
+          body: ${{ github.event.issue.body }}
       
       - uses: actions/github-script@v6
         id: js
