@@ -1,11 +1,6 @@
-name: Issue Builder 🤖
+name: Awesome Builder 🤖
 
 on:
-  workflow_dispatch:
-    inputs:
-      issue-number:
-        description: 'Issue number to parse'
-        required: true
   issues:
     types: [labeled]
 
@@ -14,7 +9,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  awesome-handler:
+  awesome-builder:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -57,4 +52,3 @@ jobs:
           delete-branch: true
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           committer: GitHub <noreply@github.com>
-      
