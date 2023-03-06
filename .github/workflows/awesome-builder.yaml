@@ -45,8 +45,7 @@ jobs:
           branch: "add/${{ env.org-id }}"
           labels: new org 🚀
           delete-branch: true
-          author: ${{ github.event.issue.user.login }} <${{ github.event.issue.user.login }}@users.noreply.github.com>
-          committer: GitHub <noreply@github.com>
+          committer: ${{ github.event.issue.user.login }} <${{ github.event.issue.user.email }}>
           body: |
             Adds [${{ env.org-name }}](https://github.com/${{ env.org-name }}) to the **${{ env.org-category }}** category.
             
