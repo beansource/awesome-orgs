@@ -34,7 +34,7 @@ jobs:
             const script = require('./scripts/awesome-parser.js')
             return script({ github, context, core, mkdownData: ${{ steps.parse.outputs.data }} })
       
-      - name: JS -> Env
+      - name: Populate environment variables
         run: |
           echo "org-id=${{ fromJSON(steps.js.outputs.result).orgId }}"                   >> $GITHUB_ENV
           echo "org-name=${{ fromJSON(steps.js.outputs.result).orgName }}"               >> $GITHUB_ENV
@@ -42,12 +42,15 @@ jobs:
           echo "org-category=${{ fromJSON(steps.js.outputs.result).orgCategory }}"       >> $GITHUB_ENV
           echo "org-url=${{ fromJSON(steps.js.outputs.result).orgUrl }}"                 >> $GITHUB_ENV
       
-      - name: Create PR
+      - name: Create pull request
         uses: peter-evans/create-pull-request@v3
         with:
           commit-message: "add ${{ env.org-id }}"
           title: "add(org): ${{ env.org-id }}"
-          body: Adds _${{ env.org-name }}_ to the **${{ env.org-category }}** category ⚡️
+          body: |
+            Adds [${{ env.org-name }}](https://github.com/${{ env.org-name }}) to the **${{ env.org-category }}** category ⚡️
+            
+            Resolves #${{ inputs.issue-number }} ✨
           reviewers: swand0g
           branch: "add/${{ env.org-id }}"
           labels: new org 🚀
