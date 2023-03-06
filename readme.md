@@ -35,6 +35,7 @@ Curating awesome GitHub organizations
 
 ### Web
 <!-- @web -->
+- [Hono [honojs]](https://github.com/honojs) - Ultrafast web framework for the Edge
 - [Oven [oven-sh]](https://github.com/oven-sh) - The company behind Bun, the incredibly fast JavaScript runtime, bundler, transpiler and package manager.
 - [Vue [vuejs]](https://github.com/vuejs)
 - [Nuxt [nuxt]](https://github.com/nuxt) - The Intuitive Vue Framework
