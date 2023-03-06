@@ -48,9 +48,9 @@ jobs:
           commit-message: "add ${{ env.org-id }}"
           title: "add(org): ${{ env.org-id }}"
           body: |
-            Adds [${{ env.org-name }}](https://github.com/${{ env.org-name }}) to the **${{ env.org-category }}** category ⚡️
+            Adds [${{ env.org-name }}](https://github.com/${{ env.org-name }}) to the **${{ env.org-category }}** category.
             
-            Resolves #${{ inputs.issue-number }} ✨
+            This pull request resolves #${{ github.event.issue.number }} ✨
           reviewers: swand0g
           branch: "add/${{ env.org-id }}"
           labels: new org 🚀
