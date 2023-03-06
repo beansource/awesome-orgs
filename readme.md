@@ -10,6 +10,7 @@ Curating awesome GitHub organizations
 </div>
 
 ## Contents
+<!-- @toc -->
 - [Companies](#companies)
 - [Cloud](#cloud)
 - [Web](#web)
@@ -19,6 +20,7 @@ Curating awesome GitHub organizations
 - [Other](#other)
 
 ### Companies
+<!-- @companies -->
 - [Vercel [vercel]](https://github.com/vercel) - Develop. Preview. Ship. Creators of Next.js.
 - [Prisma [prisma]](https://github.com/prisma) - Prisma makes working with databases easy
 - [Microsoft [microsoft]](https://github.com/microsoft) - Open source projects and samples from Microsoft
@@ -26,11 +28,13 @@ Curating awesome GitHub organizations
 - [GitHub [github]](https://github.com/github) - How people build software.
 
 ### Cloud
+<!-- @cloud -->
 - [Kong [kong]](https://github.com/Kong) - The Cloud Connectivity Company. Community Driven & Enterprise Adopted.
 - [Kubernetes [kubernetes]](https://github.com/kubernetes) - Kubernetes
 - [Docker [docker]](https://github.com/docker) - Docker helps developers bring their ideas to life by conquering the complexity of app development.
 
 ### Web
+<!-- @web -->
 - [Oven [oven-sh]](https://github.com/oven-sh) - The company behind Bun, the incredibly fast JavaScript runtime, bundler, transpiler and package manager.
 - [Vue [vuejs]](https://github.com/vuejs)
 - [Nuxt [nuxt]](https://github.com/nuxt) - The Intuitive Vue Framework
@@ -46,18 +50,22 @@ Curating awesome GitHub organizations
 - [Fiber [gofiber]](https://github.com/gofiber) - 🚀 Fiber is an Express inspired web framework written in Go with 💖
 
 ### Database
+<!-- @database -->
 - [EdgeDB [edgedb]](https://github.com/edgedb) - A next-generation graph-relational database.
 - [Supabase [supabase]](https://github.com/supabase) - The open source Firebase alternative.
 - [SurrealDB [surrealdb]](https://github.com/surrealdb) - A scalable, distributed, collaborative, document-graph database, for the realtime web
 
 ### User Interface
+<!-- @user-interface -->
 - [Storybook [storybookjs]](https://github.com/storybookjs) - Build bulletproof user interfaces
 - [Tailwind Labs [tailwindlabs]](https://github.com/tailwindlabs) - Creators of Tailwind CSS and Headless UI, and authors of Refactoring UI.
 
 ### Analytics
+<!-- @analytics -->
 - [PostHog [posthog]](https://github.com/PostHog) - Open-source product analytics platform
 
 ### Other
+<!-- @other -->
 - [Charm [charmbracelet]](https://github.com/charmbracelet) - We build tools to make the command line glamorous.
 - [TheAlgorithms [thealgorithms]](https://github.com/thealgorithms) - Open Source resource for learning Data Structures & Algorithms and their implementation in any Programming Language
 - [Hugging Face [huggingface]](https://github.com/huggingface) - The AI community building the future
