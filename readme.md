@@ -21,6 +21,7 @@ Curating awesome GitHub organizations
 
 ### Companies
 <!-- @companies -->
+- [Grafana Labs [grafana]](https://github.com/grafana) - Grafana Labs is behind leading open source projects Grafana and Loki, and the creator of the first open & composable observability platform.
 - [Vercel [vercel]](https://github.com/vercel) - Develop. Preview. Ship. Creators of Next.js.
 - [Prisma [prisma]](https://github.com/prisma) - Prisma makes working with databases easy
 - [Microsoft [microsoft]](https://github.com/microsoft) - Open source projects and samples from Microsoft
