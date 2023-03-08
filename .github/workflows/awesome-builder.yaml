@@ -47,7 +47,7 @@ jobs:
           labels: new org 🚀
           delete-branch: true
           body: |
-            Adds [${{ env.org-name }}](https://github.com/${{ env.org-name }}) to the **${{ env.org-category }}** category.
+            Adds [${{ env.org-name }}](https://github.com/${{ env.org-id }}) to the **${{ env.org-category }}** category.
             
             This pull request resolves #${{ github.event.issue.number }} ✨
           reviewers: |
