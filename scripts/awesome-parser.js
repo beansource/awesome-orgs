@@ -19,26 +19,25 @@ function main({ mkdownData }) {
     orgName               = mkdownData['org-name']['text'],
     orgDescription        = mkdownData['description']['text'],
     orgCategory           = mkdownData['org-category']['text'],
-    orgCategoryLower      = mkdownData['org-category']['text'].toLowerCase(),
+    orgCategoryFormatted  = mkdownData['org-category']['text'].toLowerCase().replace(' ', '-'),
     formattedOrgCategory  = `<!-- @${orgCategoryLower} -->`,
     orgUrl                = `https://github.com/${orgId}`,
-    data                  = `- [${orgName}](${orgUrl}) - ${orgDescription}`
+    newLine               = `- [${orgName}](${orgUrl}) - ${orgDescription}`,
+    data                  = { orgId, orgName, orgDescription, orgCategory, orgUrl }
   ;
-
+  
   const 
-    fs = require('fs'),
-    readme = fs.readFileSync('readme.md', 'utf8'),
-    newReadme = updateMarkdown(readme, formattedOrgCategory, data)
+    fs            = require('fs'),
+    readme        = fs.readFileSync('readme.md', 'utf8'),
+    newReadmeText = updateMarkdown(readme, formattedOrgCategory, newLine)
   ;
-  fs.writeFileSync('readme.md', newReadme, 'utf8');
+  fs.writeFileSync('readme.md', newReadmeText, 'utf8');
 
-  // Log the new readme
-  console.log(
-    "New readme: \n",
-    newReadme.split('\n').map(line => `\t${line}`).join('\n')
-  );
-
-  return { orgId, orgName, orgDescription, orgCategory, orgUrl };
+  // Log results
+  console.log("New readme: \n", newReadme.split('\n').map(line => `\t${line}`).join('\n'));
+  console.table(data);
+  
+  return data;
 }
 
 module.exports = main;
