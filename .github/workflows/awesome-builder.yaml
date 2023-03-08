@@ -11,6 +11,7 @@ permissions:
 jobs:
   awesome-builder:
     runs-on: ubuntu-latest
+    if: github.event.label.name == 'this is awesome'
     steps:
       - name: Checkout
         uses: actions/checkout@v2
