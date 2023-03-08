@@ -64,6 +64,14 @@ body:
         Please provide a brief justification for why you are suggesting this org ✍️
     validations:
       required: true
+  - type: input
+    id: org-url
+    attributes:
+      label: Org URL
+      description: Where is this org? 🤔
+      placeholder: https://github.com/charmbracelet
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: Criteria
