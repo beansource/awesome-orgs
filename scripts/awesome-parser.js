@@ -34,7 +34,7 @@ function main({ mkdownData }) {
   fs.writeFileSync('readme.md', newReadmeText, 'utf8');
 
   // Log results
-  console.log("New readme: \n", newReadme.split('\n').map(line => `\t${line}`).join('\n'));
+  console.log("New readme: \n", newReadmeText.split('\n').map(line => `\t${line}`).join('\n'));
   console.table(data);
   
   return data;
