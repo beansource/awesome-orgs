@@ -42,7 +42,7 @@ Curating awesome GitHub organizations
 - [Vue](https://github.com/vuejs)
 - [Nuxt](https://github.com/nuxt) - The Intuitive Vue Framework.
 - [Nest](https://github.com/nestjs) - A progressive Node.js framework for building efficient and scalable server-side applications 🚀
-- [Node](https://github.com/nodejs)
+- [Node.js](https://github.com/nodejs)
 - [TanStack](https://github.com/TanStack) - Open source software for building better UI and UX.
 - [Deno](https://github.com/denoland)
 - [UnJS](https://github.com/unjs) - Unified JavaScript Tools.
