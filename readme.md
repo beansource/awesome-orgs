@@ -60,6 +60,7 @@ Curating awesome GitHub organizations
 
 ### User Interface
 <!-- @user-interface -->
+- [Exyte](https://github.com/exyte) - Developers with 5+ years of experience in iOS, Android, and the art of clear communication.
 - [Storybook](https://github.com/storybookjs) - Build bulletproof user interfaces.
 - [Tailwind Labs](https://github.com/tailwindlabs) - Creators of Tailwind CSS and Headless UI, and authors of Refactoring UI.
 
