@@ -19,7 +19,6 @@ heated:
   # Unlock the thread
   unlock: true
 
-# todo: link to action for creating PR
 this is awesome:
   # Post a comment
   comment: >
@@ -27,6 +26,8 @@ this is awesome:
 
 this is not awesome:
   close: true
+  comment: >
+    This is not awesome. Please follow our [community guidelines](https://github.com/beansource/awesome-orgs/blob/main/contributing.md#criteria).
 
 # The `pizzazz` label is added to issues, pull requests or discussions
 pizzazz:
