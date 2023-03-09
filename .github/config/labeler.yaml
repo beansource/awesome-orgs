@@ -27,7 +27,7 @@ this is awesome:
 this is not awesome:
   close: true
   comment: >
-    This is not awesome. Please follow our community guidelines.
+    This is not awesome. Please follow our [community guidelines](https://github.com/beansource/awesome-orgs/blob/main/contributing.md#criteria).
 
 # The `pizzazz` label is added to issues, pull requests or discussions
 pizzazz:
