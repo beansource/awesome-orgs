@@ -17,6 +17,7 @@ Curating awesome GitHub organizations
 - [Database](#database)
 - [User Interface](#user-interface)
 - [Analytics](#analytics)
+- [Telemetry](#telemetry)
 - [Other](#other)
 
 ### Companies
@@ -69,6 +70,10 @@ Curating awesome GitHub organizations
 <!-- @analytics -->
 - [PostHog](https://github.com/PostHog) - Open-source product analytics platform.
 
+### Telemetry
+<!-- @telemetry -->
+- [Sentry](https://github.com/getsentry) - Real-time crash reporting for your web apps, mobile apps, and games.
+- 
 ### Other
 <!-- @other -->
 - [Charm](https://github.com/charmbracelet) - We build tools to make the command line glamorous.

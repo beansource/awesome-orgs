@@ -46,6 +46,8 @@ body:
         - Web
         - Database
         - User Interface
+        - Analytics
+        - Telemetry
         - Other
         - New category
     validations:
