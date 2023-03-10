@@ -73,7 +73,7 @@ Curating awesome GitHub organizations
 ### Telemetry
 <!-- @telemetry -->
 - [Sentry](https://github.com/getsentry) - Real-time crash reporting for your web apps, mobile apps, and games.
-- 
+
 ### Other
 <!-- @other -->
 - [Charm](https://github.com/charmbracelet) - We build tools to make the command line glamorous.
