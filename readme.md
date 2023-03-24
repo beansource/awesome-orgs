@@ -44,7 +44,7 @@ Curating awesome GitHub organizations
 - [Oven](https://github.com/oven-sh) - The company behind Bun, the incredibly fast JavaScript runtime, bundler, transpiler and package manager.
 - [Vue](https://github.com/vuejs)
 - [Nuxt](https://github.com/nuxt) - The Intuitive Vue Framework.
-- [Nest](https://github.com/nestjs) - A progressive Node.js framework for building efficient and scalable server-side applications 🚀
+- [Nest](https://github.com/nestjs) - A progressive Node.js framework for building efficient and scalable server-side applications 🚀.
 - [Node.js](https://github.com/nodejs)
 - [TanStack](https://github.com/TanStack) - Open source software for building better UI and UX.
 - [Deno](https://github.com/denoland)
@@ -53,7 +53,7 @@ Curating awesome GitHub organizations
 - [Cypress.io](https://github.com/cypress-io) - Fast, easy and reliable testing for anything that runs in a browser.
 - [CodeSandbox](https://github.com/codesandbox) - An online editor tailored for web applications.
 - [choo](https://github.com/choojs) - (very) small browser tools. Choo choo.
-- [Fiber](https://github.com/gofiber) - 🚀 Fiber is an Express inspired web framework written in Go with 💖
+- [Fiber](https://github.com/gofiber) - 🚀 Fiber is an Express inspired web framework written in Go with 💖.
 
 ### Database
 <!-- @database -->
@@ -82,4 +82,4 @@ Curating awesome GitHub organizations
 - [Hugging Face](https://github.com/huggingface) - The AI community building the future.
 - [Nrwl](https://github.com/nrwl) - We are a team of engineers building software and open source: Nx and Nx Cloud.
 - [Z-Shell](https://github.com/z-shell) - Open-source society passionate about Zsh.
-- [ReadMe](https://github.com/readmeio) - Beautiful, personalized, interactive developer hubs 🦉
+- [ReadMe](https://github.com/readmeio) - Beautiful, personalized, interactive developer hubs 🦉.
