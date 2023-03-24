@@ -39,7 +39,7 @@ Curating awesome GitHub organizations
 ## Web
 <!-- @web -->
 - [Poppinss](https://github.com/poppinss) - Small focused modules for Node.js.
-- [unified](https://github.com/unifiedjs) s- Content as structured data, powering @remarkjs, @rehypejs, @retextjs, and @redotjs, used to build things like @mdx-js, @prettier, @gatsbyjs, and so much more!
+- [Unified](https://github.com/unifiedjs) - Content as structured data, powering @remarkjs, @rehypejs, @retextjs, and @redotjs, used to build things like @mdx-js, @prettier, @gatsbyjs, and so much more!
 - [Hono](https://github.com/honojs) - Ultrafast web framework for the Edge.
 - [Oven](https://github.com/oven-sh) - The company behind Bun, the incredibly fast JavaScript runtime, bundler, transpiler and package manager.
 - [Vue](https://github.com/vuejs)
@@ -52,7 +52,7 @@ Curating awesome GitHub organizations
 - [Poimandres](https://github.com/pmndrs) - Open source developer collective.
 - [Cypress.io](https://github.com/cypress-io) - Fast, easy and reliable testing for anything that runs in a browser.
 - [CodeSandbox](https://github.com/codesandbox) - An online editor tailored for web applications.
-- [choo](https://github.com/choojs) - (very) small browser tools. Choo choo.
+- [Choo](https://github.com/choojs) - (very) small browser tools. Choo choo.
 - [Fiber](https://github.com/gofiber) - Fiber is an Express inspired web framework written in Go with 💖.
 
 ## Database
