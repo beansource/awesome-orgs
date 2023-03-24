@@ -1,6 +1,6 @@
 <div align="center">
 
-## Awesome Orgs
+# Awesome Orgs
 Curating awesome GitHub organizations  
 ![octocat](https://github.githubassets.com/images/icons/emoji/hearts_around.png)
 
@@ -9,7 +9,7 @@ Curating awesome GitHub organizations
 
 </div>
 
-## Contents
+# Contents
 <!-- @toc -->
 - [Companies](#companies)
 - [Cloud](#cloud)
