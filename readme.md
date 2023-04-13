@@ -77,6 +77,7 @@ Curating awesome GitHub organizations
 
 ## Other
 <!-- @other -->
+- [GitHub Actions](https://github.com/actions) - Automate your GitHub workflows.
 - [Charm](https://github.com/charmbracelet) - We build tools to make the command line glamorous.
 - [TheAlgorithms](https://github.com/thealgorithms) - Open Source resource for learning Data Structures & Algorithms and their implementation in any Programming Language.
 - [Hugging Face](https://github.com/huggingface) - The AI community building the future.
