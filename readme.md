@@ -32,7 +32,7 @@ Curating awesome GitHub organizations
 
 ## Cloud
 <!-- @cloud -->
-- [Kong](https://github.com/Kong) - The Cloud Connectivity Company. Community Driven & Enterprise Adopted.
+- [Kong](https://github.com/Kong) - The cloud connectivity company. Community-driven & enterprise-adopted.
 - [Kubernetes](https://github.com/kubernetes)
 - [Docker](https://github.com/docker) - Docker helps developers bring their ideas to life by conquering the complexity of app development.
 
@@ -48,7 +48,7 @@ Curating awesome GitHub organizations
 - [Node.js](https://github.com/nodejs)
 - [TanStack](https://github.com/TanStack) - Open source software for building better UI and UX.
 - [Deno](https://github.com/denoland)
-- [UnJS](https://github.com/unjs) - Unified JavaScript Tools.
+- [UnJS](https://github.com/unjs) - Unified JavaScript tools.
 - [Poimandres](https://github.com/pmndrs) - Open source developer collective.
 - [Cypress.io](https://github.com/cypress-io) - Fast, easy, and reliable testing for anything that runs in a browser.
 - [CodeSandbox](https://github.com/codesandbox) - An online editor tailored for web applications.
@@ -58,7 +58,7 @@ Curating awesome GitHub organizations
 ## Database
 <!-- @database -->
 - [EdgeDB](https://github.com/edgedb) - A next-generation graph-relational database.
-- [Supabase](https://github.com/supabase) - The open-source Firebase alternative.
+- [Supabase](https://github.com/supabase) - The open source Firebase alternative.
 - [SurrealDB](https://github.com/surrealdb) - A scalable, distributed, collaborative, document-graph database for the real-time web.
 
 ## User Interface
@@ -69,7 +69,7 @@ Curating awesome GitHub organizations
 
 ## Analytics
 <!-- @analytics -->
-- [PostHog](https://github.com/PostHog) - Open-source product analytics platform.
+- [PostHog](https://github.com/PostHog) - Open source product analytics platform.
 
 ## Telemetry
 <!-- @telemetry -->
@@ -80,8 +80,8 @@ Curating awesome GitHub organizations
 - [Axo](https://github.com/axodotdev) - Collection of open source Rust libraries and tools.
 - [GitHub Actions](https://github.com/actions) - Automate your GitHub workflows.
 - [Charm](https://github.com/charmbracelet) - We build tools to make the command line glamorous.
-- [TheAlgorithms](https://github.com/thealgorithms) - Open Source resource for learning Data Structures & Algorithms and their implementation in any Programming Language.
+- [TheAlgorithms](https://github.com/thealgorithms) - Open source resource for learning data structures & algorithms and their implementation in any programming language.
 - [Hugging Face](https://github.com/huggingface) - The AI community building the future.
 - [Nrwl](https://github.com/nrwl) - We are a team of engineers building open-source software: Nx and Nx Cloud.
-- [Z-Shell](https://github.com/z-shell) - Open-source society passionate about Zsh.
+- [Z-Shell](https://github.com/z-shell) - Open source society passionate about Zsh.
 - [ReadMe](https://github.com/readmeio) - Beautiful, personalized, interactive developer hubs 🦉.
