@@ -38,6 +38,7 @@ Curating awesome GitHub organizations
 
 ## Web
 <!-- @web -->
+- [Mdx-js](https://github.com/mdx-js) - Markdown for the component era.
 - [Poppinss](https://github.com/poppinss) - Small, focused modules for Node.js.
 - [Unified](https://github.com/unifiedjs) - Content as structured data, powering @remarkjs, @rehypejs, @retextjs, and @redotjs, used to build things like @mdx-js, @prettier, @gatsbyjs, and so much more!
 - [Hono](https://github.com/honojs) - Ultrafast web framework for the Edge.
