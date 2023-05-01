@@ -78,6 +78,7 @@ Curating awesome GitHub organizations
 
 ## Other
 <!-- @other -->
+- [Words](https://github.com/words) - Linguistic JavaScript modules.
 - [Axo](https://github.com/axodotdev) - Collection of open source Rust libraries and tools.
 - [GitHub Actions](https://github.com/actions) - Automate your GitHub workflows.
 - [Charm](https://github.com/charmbracelet) - We build tools to make the command line glamorous.
