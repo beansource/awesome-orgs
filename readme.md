@@ -78,6 +78,7 @@ Curating awesome GitHub organizations
 
 ## Other
 <!-- @other -->
+- [OpenSauced](https://github.com/open-sauced) - The open source intelligence platform for developers and maintainers. Unlock the power of open source with project insights by the slice.
 - [Words](https://github.com/words) - Linguistic JavaScript modules.
 - [Axo](https://github.com/axodotdev) - Collection of open source Rust libraries and tools.
 - [GitHub Actions](https://github.com/actions) - Automate your GitHub workflows.
